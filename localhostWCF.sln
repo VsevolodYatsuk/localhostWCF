@@ -25,10 +25,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhostWCF", ".", "{33818
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWpfClient", "MyWpfClient\MyWpfClient.csproj", "{6836B51B-5848-4EFF-AA39-1B04C98F8E11}"
-	ProjectSection(ProjectDependencies) = postProject
-		{33818F2F-7A9A-45A4-BB42-E40B14F8E2A9} = {33818F2F-7A9A-45A4-BB42-E40B14F8E2A9}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-serv", "..\WPF-serv\WPF-serv.csproj", "{47856E44-7F38-4806-B998-85A80F7AAF11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,10 +37,10 @@ Global
 		{33818F2F-7A9A-45A4-BB42-E40B14F8E2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33818F2F-7A9A-45A4-BB42-E40B14F8E2A9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{33818F2F-7A9A-45A4-BB42-E40B14F8E2A9}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{6836B51B-5848-4EFF-AA39-1B04C98F8E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6836B51B-5848-4EFF-AA39-1B04C98F8E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6836B51B-5848-4EFF-AA39-1B04C98F8E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6836B51B-5848-4EFF-AA39-1B04C98F8E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47856E44-7F38-4806-B998-85A80F7AAF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47856E44-7F38-4806-B998-85A80F7AAF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47856E44-7F38-4806-B998-85A80F7AAF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47856E44-7F38-4806-B998-85A80F7AAF11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
